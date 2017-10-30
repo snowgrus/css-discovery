@@ -1,8 +1,12 @@
-![Logo](src/assets/images/logo.png)
+![Logo](src/assets/images/logo.jpg)
 
 # CSS 发现之旅（CSS Discovery）
 
 CSS 发现之旅，体验不同架构CSS技术与架构
+
+## 技术或框架列表
+
+- ITCSS
 
 ## 安装 / 快速入门
 
