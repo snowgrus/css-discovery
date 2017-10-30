@@ -17,10 +17,6 @@ gulp.task('sass', function () {
     .pipe(gulp.dest(paths.dist));
 });
 
-gulp.task('html', function () {
-  return gulp.src('./src/**/*.html')
-    .pipe(gulp.dest(paths.dist));
-});
 
 gulp.task('sass:watch', function () {
   gulp.watch('./src/**/*.scss', ['sass']);
@@ -28,4 +24,4 @@ gulp.task('sass:watch', function () {
 
 gulp.task('dev', ['sass:watch'])
 
-gulp.task('default', ['sass', 'html']);
+gulp.task('default', ['sass']);
