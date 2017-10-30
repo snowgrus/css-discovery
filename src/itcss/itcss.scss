@@ -1,0 +1,45 @@
+@import "./settings/global";
+@import "./settings/colors";
+
+@import "./tools/mixins";
+
+/*************************
+ * generic Section
+*/
+@import "./generic/normalize";
+@import "./generic/box-sizing";
+@import "./generic/reset";
+@import "./generic/shared";
+
+
+/*************************
+ * Elements
+ * Styling for bare HTML elements (like H1, A, etc.). These come with default styling from the browser so we can redefine them here.
+*/
+@import "./elements/page";
+@import "./elements/headings";
+@import "./elements/links";
+@import "./elements/lists";
+@import "./elements/images";
+@import "./elements/quotes";
+
+/*************************
+ * Objects Section
+*/
+@import "./objects/wrappers";
+@import "./objects/layout";
+@import "./objects/media";
+
+/*************************
+ * Components Section
+*/
+@import "./components/page-title";
+@import "./components/buttons";
+@import "./components/testimonials";
+@import "./components/avatars";
+
+/*************************
+ * Object Section
+*/
+@import "./utilities/links";
+@import "./utilities/widths";
