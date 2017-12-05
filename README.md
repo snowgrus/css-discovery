@@ -1,6 +1,6 @@
-![Logo](src/assets/images/logo.jpg)
-
 # CSS 发现之旅（CSS Discovery）
+
+![Logo](src/assets/images/logo.jpg)
 
 CSS 发现之旅，体验不同架构CSS技术与架构
 
