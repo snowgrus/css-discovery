@@ -4,11 +4,12 @@ const gulpSass = require('gulp-sass');
 const autoprefixer = require('gulp-autoprefixer');
 
 const paths = {
-  dist: './src'
+  dist: './src',
+  src: './src'
 }
 
 gulp.task('sass', function () {
-  return gulp.src('./src/**/*.scss')
+  return gulp.src(`${paths.src}/**/*.scss`)
     .pipe(gulpSass().on('error', gulpSass.logError))
     .pipe(autoprefixer({
       browsers: ['last 2 versions'],
